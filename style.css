@@ -320,7 +320,8 @@ img {
     text-align: center;
     border: .2rem solid #081b29;
     transition: .5s ease;
-}
+}   
+
 
 .skills-container .skills-box:hover {
     border-color: #00abf0;
@@ -350,11 +351,7 @@ img {
 
 
 @media (max-width: 768px) {
-    .home {
-        flex-direction: column-reverse; /* Coloca a foto em cima ou embaixo do texto */
-        text-align: center;
-    }
-    .home-content h1 {
+    body > h1, h3 {
         font-size: 32px; /* Diminui o texto no celular */
     }
     .btn-box {
